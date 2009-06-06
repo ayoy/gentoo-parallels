@@ -1,0 +1,7 @@
+x11-libs/qt-sql mysql
+x11-libs/qt-gui mng
+sys-auth/pambase consolekit
+app-admin/sudo offensive
+www-client/opera qt-static
+dev-util/qt-creator doc fakevim git
+app-portage/layman git subversion
