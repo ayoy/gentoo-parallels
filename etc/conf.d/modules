@@ -1,0 +1,47 @@
+# You can define a list modules for a specific kernel version,
+# a released kernel version, a main kernel version or just a list.
+#modules_2_6_23_gentoo_r5="ieee1394 ohci1394"
+#modules_2_6_23="tun ieee1394"
+#modules_2_6="tun"
+#modules="ohci1394"
+
+# You can give modules a different name when they load - the new name
+# will also be used to pick arguments below.
+#modules="dummy:dummy1"
+
+# Give the modules some arguments if needed, per version if necessary.
+#module_ieee1394_args="debug"
+#module_ieee1394_args_2_6_23_gentoo_r5="ieee1394 ohci1394"
+#module_ieee1394_args_2_6_23="tun ieee1394"
+#module_ieee1394_args_2_6="tun"
+
+# You should consult your kernel documentation and configuration
+# for a list of modules and their options.
+
+### START: Auto-converted from kernel-2.6
+
+# /etc/modules.autoload.d/kernel-2.6:  kernel modules to load when system boots.
+#
+# Note that this file is for 2.6 kernels.
+#
+# Add the names of modules that you'd like to load when the system
+# starts into this file, one per line.  Comments begin with # and
+# are ignored.  Read man modules.autoload for additional details.
+
+# For example:
+# aic7xxx
+modules_2_6="${modules_2_6} test_nx"
+module_test_nx_args_2_6=""
+
+modules_2_6="${modules_2_6} pcnet32"
+module_pcnet32_args_2_6=""
+
+modules_2_6="${modules_2_6} scsi_wait_scan"
+module_scsi_wait_scan_args_2_6=""
+
+modules_2_6="${modules_2_6} 8390"
+module_8390_args_2_6=""
+
+
+### END: Auto-converted from kernel-2.6
+
