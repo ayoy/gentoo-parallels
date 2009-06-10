@@ -1,1 +1,4 @@
 >sys-kernel/gentoo-sources-2.6.28-r5
+>=dev-python/PyQt4-4.5_pre1
+=dev-python/PyQt4-4.5*
+=dev-python/sip-4.8*

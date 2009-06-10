@@ -33,9 +33,6 @@
 modules_2_6="${modules_2_6} test_nx"
 module_test_nx_args_2_6=""
 
-modules_2_6="${modules_2_6} pcnet32"
-module_pcnet32_args_2_6=""
-
 modules_2_6="${modules_2_6} scsi_wait_scan"
 module_scsi_wait_scan_args_2_6=""
 

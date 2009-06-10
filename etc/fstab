@@ -1,0 +1,7 @@
+/dev/sda1		none		swap		sw	0 0
+/dev/sda2		/		ext4		noatime		0 1
+/dev/hdc		/mnt/cdrom	auto		noauto,ro	0 0
+shm			/dev/shm	tmpfs		nodev,nosuid,noexec	0 0
+
+#Parallels Shared Folder mount
+none          /media/psf   prl_fs   sync,nosuid,nodev,noatime,share     0       0
