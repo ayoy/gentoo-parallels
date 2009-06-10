@@ -5,3 +5,4 @@ app-admin/sudo offensive
 dev-util/qt-creator doc fakevim git
 app-portage/layman git subversion
 www-client/opera ia32
+www-plugins/adobe-flash -32bit

@@ -10,6 +10,7 @@ dev-util/ccache
 dev-util/git
 dev-util/qt-creator
 kde-base/kde-meta
+media-sound/alsa-utils
 net-analyzer/netselect
 net-im/qtwitter
 net-misc/dhcpcd
@@ -22,5 +23,6 @@ sys-power/cpufrequtils
 sys-process/htop
 sys-process/vixie-cron
 www-client/arora
+www-plugins/adobe-flash
 x11-base/xorg-x11
 x11-libs/qt-demo
